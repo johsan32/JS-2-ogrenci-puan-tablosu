@@ -21,6 +21,6 @@
 
 ![print-screen](screen.jpg)
 
-![gif](gif.gif)
+![gif](video.gif)
 
 # JS-2-ogrenci-puan-tablosu
