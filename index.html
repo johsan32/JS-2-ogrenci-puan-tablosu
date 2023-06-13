@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" href="sytle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="images/react.png" alt="">
+            <h1>React Eğitim Sonuç Formu</h1>
+        </div>
+        <form id="student-form">
+            <div class="form-group">
+                <input type="text" id="isim" placeholder="İsim giriniz..." required>
+            </div>
+            <div class="form-group">
+                <input type="text" id="soyad" placeholder="Soyad giriniz..." required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="number" placeholder="Numarasını giriniz..." required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="proje" placeholder="Eğitim etkinlik çalışmaları notunu giriniz..." min="10" max="100" required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="final" placeholder="Final proje değerlendirme notunu giriniz..." min="10" max="100" required>
+            </div>
+            <div class="form-group">
+                <input type="number" id="egitici" placeholder="Eğitimci değerlendirme notunu giriniz..." min="10" max="100" required>
+            </div>
+            <button type="submit" class="ekle">Listeye Ekle</button>
+        </form>
+        <div class="student-state">
+            <h3>Eğitime Katılanların Listesi</h3>
+            <div>
+                <i></i>
+                <span>AA</span>
+                <i></i>
+                <span>BB</span>
+                <i></i>
+                <span>CC</span>
+                <i></i>
+                <span>DD</span>
+                <i></i>
+                <span>FF</span>
+            </div>
+        </div>
+        
+        <div id="student-list">
+            <!-- <p class="empty">Listeye ekleme yapılmadı.</p>  -->
+            <!-- <div class="student-item">
+                <div class="student-item-info">
+                    <div class="title">
+                        <h3>İsim Soyisim</h3>
+                        <p>Numara</p>
+                    </div>
+                    <div class="title-middle">
+                        <div class="title-middle-start">
+                            <span>Etkinlikler: puan </span>
+                            <span>Final Projesi : puan </span>
+                            <span>Eğitimci Notu :  Puan</span>
+                        </div>
+                        <div class="title-middle-end">
+                            <p>Ortalama</p>
+                            <p class="puan">Puan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="student-item-process">
+                    <i class="fa-regular fa-pen-to-square edit"></i>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </div> 
+            </div> -->
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
